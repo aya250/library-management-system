@@ -1,4 +1,3 @@
-// BookService.java
 package com.example.librarymanagementsystem.service;
 
 import com.example.librarymanagementsystem.model.Book;
@@ -20,6 +19,10 @@ public class BookService {
 
     public Optional<Book> getBookById(Long id) {
         return bookRepository.findById(id);
+    }
+
+    public Book addBook(Book book) {
+        return bookRepository.save(book);
     }
 
     // Implement other service methods as needed
