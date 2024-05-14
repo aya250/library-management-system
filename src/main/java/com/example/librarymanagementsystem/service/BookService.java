@@ -1,8 +1,8 @@
 // BookService.java
-package com.yourcompany.librarymanagementsystem.service;
+package com.example.librarymanagementsystem.service;
 
-import com.yourcompany.librarymanagementsystem.model.Book;
-import com.yourcompany.librarymanagementsystem.repository.BookRepository;
+import com.example.librarymanagementsystem.model.Book;
+import com.example.librarymanagementsystem.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
