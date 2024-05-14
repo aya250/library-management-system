@@ -1,4 +1,4 @@
-package com.yourcompany.librarymanagementsystem.model;
+package com.example.librarymanagementsystem.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;

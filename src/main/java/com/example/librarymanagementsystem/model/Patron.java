@@ -13,10 +13,16 @@ public class Patron {
     private String name;
     private String contactInformation;
 
-    // Constructors
+    // Default constructor
     public Patron() {
     }
 
+    // Constructor with id
+    public Patron(Long id) {
+        this.id = id;
+    }
+
+    // Constructor with all fields
     public Patron(String name, String contactInformation) {
         this.name = name;
         this.contactInformation = contactInformation;
